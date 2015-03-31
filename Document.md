@@ -10,9 +10,7 @@ Le présent document a pour objectif d’amener un utilisateur ou potentiel util
 A l’image de technologie qu’il décrit, et surement par nécessité le document est collaboratif.
 
 ##Introduction
-Docker est une technologie de gestionnaire, très léger et rapide, de conteneurs Linux. Docker permet de créer des images contenant l’application, et seulement elle, dont l’utilisateur aura besoin pour une action précise. Cette image est alors placée dans un serveur, le Docker Hub, afin d’être réutilisée sur n’importe quelle machine faisant tourner Docker.
-
-On parle alors de virtualisation légère qui se doit d’être profondément différente de celle fournie par une machine virtuelle. 
+Docker est une technologie de gestion de conteneurs qui permet d’étendre la flexibilité et la portabilité d’exécution d’une application. Elle arrive justement sur le marché en proposant la possibilité d’isoler une application de la machine hôte sur laquelle elle s’exécute de manière légère et semi-automatique. De façon peu rigoureuse et simpliste nous pourrions situer cette technologie à mi-chemin entre une technologie de virtualisation (Xen, VirtualBox, VMWare) qui « isole totalement » l’exécution d’une application du système hôte de la machine virtuelle et l’absence de virtualisation. Vis-à-vis de la virtualisation, la conteneurisation à une « isolation moindre » mais une bien plus grande légèreté.
 
 Ce document ne cherche pas à plus développer ce qu’est Docker ou comment il fonctionne. Pour cela nous conseillons grandement de visiter [le site officiel](https://www.docker.com/) de cette jeune startup française au succès mondial. Vous pouvez aussi retrouver le code de Docker sur [ce lien](https://github.com/docker) (lien vers Github) et aider à améliorer le projet.
 
