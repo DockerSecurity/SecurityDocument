@@ -5,13 +5,9 @@
 
 ##Préambule
 
-Ce n’est pas un « tutoriel ». Il n’est pas destiné à présenter Docker, ni à présenter comment prendre en main la technologie. Pour cela, il existe de la documentation sur internet. 
-
-Il permet de prendre du recul sur Docker et la sécurité.
-
-Aux utilisateurs qui souhaitent maitriser la techno du point de vu « sécurité » soit pour mieux l’utiliser soit pour se positionner vis-à-vis de la techno (c’est-à-dire savoir s’ils doivent l’utiliser ou non).
-
-Ce document est voué à être à terme une référence pour la sécurité de Docker et cherche avant tout à être collaboratif. 
+Ce document n’est pas un tutoriel d’utilisation de Docker. Par conséquent, il n’est pas destiné à présenter au lecteur cette technologie de déploiement d’application, ni à l’aider à la prendre en main. De la documentation est largement disponible sur internet à cet effet. 
+Le présent document a pour objectif d’amener un utilisateur ou potentiel utilisateur à prendre du recul sur la sécurité de cette technologie 
+A l’image de technologie qu’il décrit, et surement par nécessité le document est collaboratif.
 
 ##Introduction
 Docker est une technologie de gestionnaire, très léger et rapide, de conteneurs Linux. Docker permet de créer des images contenant l’application, et seulement elle, dont l’utilisateur aura besoin pour une action précise. Cette image est alors placée dans un serveur, le Docker Hub, afin d’être réutilisée sur n’importe quelle machine faisant tourner Docker.
